@@ -1,0 +1,9 @@
+[build]
+dockerfilePath = "Dockerfile"
+
+[deploy]
+restartPolicyType = "ON_FAILURE"
+
+[[volumes]]
+mountPath = "/data"
+name = "data-volume"
